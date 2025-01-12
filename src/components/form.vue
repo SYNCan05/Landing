@@ -2,7 +2,7 @@
 import { ref } from 'vue';
     
     const card = ref([
-        {name:'Muhammad Sidiq',link:`/images/gambar6.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
+        {name:'Muhammad Sidiq',link:`/images/gambar4.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
         {name:'Sidiq Yuliyanto',link:`/images/gambar2.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
         {name:'Lorem Ipsum',link:'/images/gambar3.JPG',judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
         
