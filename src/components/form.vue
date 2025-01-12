@@ -16,7 +16,7 @@ import { ref } from 'vue';
                 <img :src="item.link" alt="" width="200" class="hover:cursor-default m-auto lg:w-[300px]">
                 <span  class=" font-semibold text-2xl ">{{ item.name }}</span>
                 <p>{{ item.judul }}</p>
-                
+                <img src="/public/images/gambar6.JPG" alt="">
             </div>
         </div>
     </div>
