@@ -2,9 +2,9 @@
 import { ref } from 'vue';
     
     const card = ref([
-        {name:'Muhammad Sidiq',link:`../public/images/gambar6.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
-        {name:'Sidiq Yuliyanto',link:`../public/images/gambar2.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
-        {name:'Lorem Ipsum',link:'../public/images/gambar3.JPG',judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
+        {name:'Muhammad Sidiq',link:`/public/images/gambar6.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
+        {name:'Sidiq Yuliyanto',link:`/public/images/gambar2.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
+        {name:'Lorem Ipsum',link:'/public/images/gambar3.JPG',judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
         
     ])
 </script>
