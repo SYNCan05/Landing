@@ -4,9 +4,9 @@ const isOpen = ref(false);
 </script>
 <template> 
     <div class=" ">
-        <button v-if="isOpen" @click="isOpen = !isOpen" class="md:hidden m-auto"><img src="../assets/images/close.png" alt="" width="30px"></button>
+        <button v-if="isOpen" @click="isOpen = !isOpen" class="md:hidden m-auto"><img src="/public/images/close.png" alt="" width="30px"></button>
         
-        <button v-else @click="isOpen = !isOpen" class="md:hidden m-auto"><img src="../assets/images/menu.png" alt="" width="35px"></button>
+        <button v-else @click="isOpen = !isOpen" class="md:hidden m-auto"><img src="/public/images/menu.png" alt="" width="35px"></button>
         
     </div>
 </template>
