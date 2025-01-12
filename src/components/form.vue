@@ -2,9 +2,9 @@
 import { ref } from 'vue';
     
     const card = ref([
-        {name:'Muhammad Sidiq',link:`/public/images/gambar6.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
-        {name:'Sidiq Yuliyanto',link:`/public/images/gambar2.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
-        {name:'Lorem Ipsum',link:'/public/images/gambar3.JPG',judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
+        {name:'Muhammad Sidiq',link:`/images/gambar6.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
+        {name:'Sidiq Yuliyanto',link:`/images/gambar2.JPG`,judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
+        {name:'Lorem Ipsum',link:'/images/gambar3.JPG',judul:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis hic soluta amet eligendi suscipit!'},
         
     ])
 </script>
@@ -16,7 +16,6 @@ import { ref } from 'vue';
                 <img :src="item.link" alt="" width="200" class="hover:cursor-default m-auto lg:w-[300px]">
                 <span  class=" font-semibold text-2xl ">{{ item.name }}</span>
                 <p>{{ item.judul }}</p>
-                <img src="/public/images/gambar6.JPG" alt="">
             </div>
         </div>
     </div>
